@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
+import FullScreen from '../FullScreen/FullScreen';
 
 import './SingleProd.css';
 
 const SingleProd = () => {
   const [product, setProduct] = useState();
-  const [loading, setLoading] = useState(true);
+  const [fullScreen, setFullScreen] = useState(false);
+  const [fullScreenImg, setFullScreenImg] = useState('');
 
   const { prodId } = useParams();
 
@@ -13,27 +15,27 @@ const SingleProd = () => {
     switch (prodId) {
       case 'vicenta':
         setProduct('VICENTA AROMAS');
-        setLoading(false);
         break;
       case 'palotes':
         setProduct('PALOTES SIERRAS APART');
-        setLoading(false);
         break;
       case 'textura':
         setProduct('TEXTURA: DISEÑO EN TELAR');
-        setLoading(false);
         break;
       case 'msprint':
         setProduct('MS PRINT');
-        setLoading(false);
         break;
       case 'iracy':
         setProduct('IRACY ALMACÉN NATURAL');
-        setLoading(false);
         break;
       case 'concepto':
         setProduct('CONCEPTO SHOWROOM');
-        setLoading(false);
+        break;
+      case 'milisant':
+        setProduct('MILISANT CHOCOLATES');
+        break;
+      case 'deco':
+        setProduct('DECO & ART');
         break;
 
       default:
@@ -41,15 +43,39 @@ const SingleProd = () => {
     }
   }, [prodId]);
 
-  if (loading) {
-    return <section className="product">test</section>;
-  } else {
-    return (
-      <div>
-        <h2>{product}</h2>
+  const handleFullScreen = (src) => {
+    setFullScreen(true);
+    setFullScreenImg(src);
+  };
+
+  return (
+    <div className="single-product">
+      {fullScreen && <FullScreen hide={setFullScreen} src={fullScreenImg} />}
+      <h2>{product}</h2>
+      <div className="photos">
+        <img
+          src={require(`./media/images/${prodId}/1.jpg`)}
+          alt={product}
+          onClick={() => handleFullScreen(`${prodId}/1.jpg`)}
+        />
+        <img
+          src={require(`./media/images/${prodId}/2.jpg`)}
+          alt={product}
+          onClick={() => handleFullScreen(`${prodId}/2.jpg`)}
+        />
+        <img
+          src={require(`./media/images/${prodId}/3.jpg`)}
+          alt={product}
+          onClick={() => handleFullScreen(`${prodId}/3.jpg`)}
+        />
+        <img
+          src={require(`./media/images/${prodId}/4.jpg`)}
+          alt={product}
+          onClick={() => handleFullScreen(`${prodId}/4.jpg`)}
+        />
       </div>
-    );
-  }
+    </div>
+  );
 };
 
 export default SingleProd;

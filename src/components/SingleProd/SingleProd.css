@@ -1,0 +1,28 @@
+.single-product {
+  margin: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+}
+
+.single-product h2 {
+  font-size: 1.25rem;
+  letter-spacing: 3px;
+  display: flex;
+  flex-direction: column;
+}
+
+.single-product .photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 2rem;
+  width: 70%;
+}
+
+.single-product .photos img {
+  width: 25rem;
+  cursor: pointer;
+}

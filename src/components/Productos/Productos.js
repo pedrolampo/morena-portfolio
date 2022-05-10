@@ -15,6 +15,8 @@ export default function Productos() {
         <ProductRow title="MS PRINT" path="msprint" />
         <ProductRow title="IRACY ALMACÉN NATURAL" path="iracy" />
         <ProductRow title="CONCEPTO SHOWROOM" path="concepto" />
+        <ProductRow title="MILISANT CHOCOLATES" path="milisant" />
+        <ProductRow title="DECO & ART" path="deco" />
       </div>
     </div>
   );

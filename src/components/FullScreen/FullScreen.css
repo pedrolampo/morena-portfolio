@@ -1,0 +1,21 @@
+.full-screen {
+  position: fixed;
+  width: 100vw;
+  height: 100%;
+  background-color: white;
+  margin-top: -244px;
+  display: flex;
+  justify-content: center;
+}
+
+.full-screen .close-btn {
+  font-size: 4rem;
+  position: absolute;
+  top: 0;
+  right: 1rem;
+  cursor: pointer;
+}
+
+.full-screen .full-screen-img {
+  padding: 3rem;
+}
