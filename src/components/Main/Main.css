@@ -11,8 +11,8 @@
 }
 
 .main-content .main-content-image {
-  width: 10rem;
-  height: 15rem;
+  width: 15rem;
+  height: 20rem;
   box-shadow: 0 0 12px 2px grey;
   cursor: pointer;
   overflow: hidden;
