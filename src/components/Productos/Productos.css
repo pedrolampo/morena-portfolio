@@ -70,4 +70,6 @@
 
 .product-item:first-child:hover .product-title {
   transform: translate(-50%, 550%);
+  color: rgba(0, 0, 0, 1);
+  font-size: 1.1rem;
 }

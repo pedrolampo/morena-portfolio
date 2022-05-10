@@ -1,5 +1,5 @@
 import React from 'react';
 
 export default function Contact() {
-  return <div>Contacto</div>;
+  return <div>Pegame un tubaso al fono</div>;
 }
