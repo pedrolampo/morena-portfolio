@@ -21,9 +21,9 @@
 .main-content img {
   width: 100%;
   height: 100%;
-  transition: 300ms ease-in-out;
+  transition: 400ms ease-in-out;
 }
 
 .main-content .main-content-image:hover img {
-  transform: scale(1.1);
+  transform: scale(1.12);
 }
