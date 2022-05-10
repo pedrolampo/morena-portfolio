@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import './FullScreen.css';
 
 export default function FullScreen({ hide, src }) {
+  document.body.classList.add('stop-scroll');
+
   const [source, setSource] = useState(src);
 
   const handleGoLeft = () => {
@@ -21,7 +23,13 @@ export default function FullScreen({ hide, src }) {
 
   return (
     <div className="full-screen">
-      <div className="close-btn" onClick={() => hide(false)}>
+      <div
+        className="close-btn"
+        onClick={() => {
+          hide(false);
+          document.body.classList.remove('stop-scroll');
+        }}
+      >
         &times;
       </div>
       <button className="left-btn" onClick={handleGoLeft}>
