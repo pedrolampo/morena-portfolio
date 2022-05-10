@@ -9,12 +9,12 @@ export default function Productos() {
       <h2>FOTO PRODUCTO</h2>
 
       <div className="products-list">
-        <ProductRow title="VICENTA AROMAS" />
-        <ProductRow title="PALOTES SIERRAS APART" />
-        <ProductRow title="TEXTURA: DISEÑO EN TELAR" />
-        <ProductRow title="MS PRINT" />
-        <ProductRow title="IRACY ALMACÉN NATURAL" />
-        <ProductRow title="CONCEPTO SHOWROOM" />
+        <ProductRow title="VICENTA AROMAS" path="vicenta" />
+        <ProductRow title="PALOTES SIERRAS APART" path="palotes" />
+        <ProductRow title="TEXTURA: DISEÑO EN TELAR" path="textura" />
+        <ProductRow title="MS PRINT" path="msprint" />
+        <ProductRow title="IRACY ALMACÉN NATURAL" path="iracy" />
+        <ProductRow title="CONCEPTO SHOWROOM" path="concepto" />
       </div>
     </div>
   );
