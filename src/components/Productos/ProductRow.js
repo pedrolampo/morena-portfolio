@@ -8,7 +8,7 @@ export default function ProductRow({ title, path }) {
         <Link to={`/productos/${path}`}>
           <div className="product-item">
             <img
-              src="https://dglb26w8rx2ld.cloudfront.net/000_clients/3033794/page/w400-w21292tLCywAMFtN.jpg"
+              src={require(`../SingleProd/media/images/${path}/1.jpg`)}
               alt="Product Category"
             />
             <h3 className="product-title">{title}</h3>
