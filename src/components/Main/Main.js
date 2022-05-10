@@ -11,7 +11,7 @@ export default function Main() {
         <div className="main-content-image">
           <Link to={'/productos'}>
             <img
-              src="https://dglb26w8rx2ld.cloudfront.net/000_clients/3033794/page/w1000-b21109mU6Jt8eSFV.jpg"
+              src={require('../../common/media/images/iracy.jpg')}
               alt="Imágenes Foto Producto"
             />
           </Link>
@@ -19,7 +19,7 @@ export default function Main() {
         <div className="main-content-image">
           <Link to={'/productos'}>
             <img
-              src="https://dglb26w8rx2ld.cloudfront.net/000_clients/3033794/page/w1000-b21109mU6Jt8eSFV.jpg"
+              src={require('../../common/media/images/vicenta.jpg')}
               alt="Imágenes Foto Producto"
             />
           </Link>
@@ -27,7 +27,7 @@ export default function Main() {
         <div className="main-content-image">
           <Link to={'/productos'}>
             <img
-              src="https://dglb26w8rx2ld.cloudfront.net/000_clients/3033794/page/w1000-b21109mU6Jt8eSFV.jpg"
+              src={require('../../common/media/images/concepto.jpg')}
               alt="Imágenes Foto Producto"
             />
           </Link>
@@ -35,7 +35,7 @@ export default function Main() {
         <div className="main-content-image">
           <Link to={'/productos'}>
             <img
-              src="https://dglb26w8rx2ld.cloudfront.net/000_clients/3033794/page/w1000-b21109mU6Jt8eSFV.jpg"
+              src={require('../../common/media/images/milisant.jpg')}
               alt="Imágenes Foto Producto"
             />
           </Link>
@@ -47,7 +47,7 @@ export default function Main() {
         <div className="main-content-image">
           <Link to={'/moda'}>
             <img
-              src="https://dglb26w8rx2ld.cloudfront.net/000_clients/3033794/page/w1000-b21109mU6Jt8eSFV.jpg"
+              src={require('../../common/media/images/texturafem.jpg')}
               alt="Imágenes Foto Producto"
             />
           </Link>
@@ -55,7 +55,7 @@ export default function Main() {
         <div className="main-content-image">
           <Link to={'/moda'}>
             <img
-              src="https://dglb26w8rx2ld.cloudfront.net/000_clients/3033794/page/w1000-b21109mU6Jt8eSFV.jpg"
+              src={require('../../common/media/images/valkhu.jpg')}
               alt="Imágenes Foto Producto"
             />
           </Link>
@@ -63,7 +63,7 @@ export default function Main() {
         <div className="main-content-image">
           <Link to={'/moda'}>
             <img
-              src="https://dglb26w8rx2ld.cloudfront.net/000_clients/3033794/page/w1000-b21109mU6Jt8eSFV.jpg"
+              src={require('../../common/media/images/beone.jpg')}
               alt="Imágenes Foto Producto"
             />
           </Link>
@@ -71,7 +71,7 @@ export default function Main() {
         <div className="main-content-image">
           <Link to={'/moda'}>
             <img
-              src="https://dglb26w8rx2ld.cloudfront.net/000_clients/3033794/page/w1000-b21109mU6Jt8eSFV.jpg"
+              src={require('../../common/media/images/concepto2.jpg')}
               alt="Imágenes Foto Producto"
             />
           </Link>
