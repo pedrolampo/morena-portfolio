@@ -46,4 +46,12 @@
   .full-screen {
     margin-top: -75%;
   }
+
+  .full-screen .left-btn {
+    left: 0.5rem;
+  }
+
+  .full-screen .right-btn {
+    right: 0.5rem;
+  }
 }
