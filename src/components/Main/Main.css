@@ -8,6 +8,8 @@
   display: flex;
   gap: 2rem;
   margin-bottom: 7rem;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .main-content .main-content-image {

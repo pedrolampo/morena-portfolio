@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router';
 
 import FullScreen from '../FullScreen/FullScreen';
+import '../SingleProd/SingleProd.css';
 
 export default function SingleModa() {
   const [moda, setModa] = useState();

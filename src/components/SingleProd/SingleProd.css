@@ -26,3 +26,15 @@
   width: 25rem;
   cursor: pointer;
 }
+
+@media screen and (max-width: 1400px) {
+  .single-product {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .single-product .photos img {
+    width: 100%;
+  }
+}

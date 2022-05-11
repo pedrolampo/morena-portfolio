@@ -27,6 +27,7 @@ nav h2 {
   justify-content: center;
   align-items: center;
   margin-top: 2rem;
+  flex-wrap: wrap;
 }
 
 .header-menu li {
