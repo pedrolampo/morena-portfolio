@@ -50,7 +50,13 @@ const SingleProd = () => {
 
   return (
     <div className="single-product">
-      {fullScreen && <FullScreen hide={setFullScreen} src={fullScreenImg} />}
+      {fullScreen && (
+        <FullScreen
+          hide={setFullScreen}
+          src={fullScreenImg}
+          path="SingleProd"
+        />
+      )}
       <h2>{product}</h2>
       <div className="photos">
         <img

@@ -21,7 +21,7 @@
 }
 
 .full-screen button {
-  background-color: none;
+  background-color: transparent;
   border: none;
   outline: none;
   height: min-content;

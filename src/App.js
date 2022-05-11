@@ -8,6 +8,7 @@ import Moda from './components/Moda/Moda';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import SingleProd from './components/SingleProd/SingleProd';
+import SingleModa from './components/SingleModa/SingleModa';
 
 import './App.css';
 
@@ -21,6 +22,7 @@ function App() {
           <Route exact path="/inicio" element={<Main />} />
           <Route exact path="/productos" element={<Productos />} />
           <Route path="/productos/:prodId" element={<SingleProd />} />
+          <Route path="/moda/:modaId" element={<SingleModa />} />
           <Route exact path="/moda" element={<Moda />} />
           <Route exact path="/about" element={<About />} />
           <Route exact path="/contacto" element={<Contact />} />
