@@ -8,7 +8,7 @@ export default function ProductRow({ title, path }) {
         <Link to={`/moda/${path}`}>
           <div className="moda-item">
             <img
-              src="https://dglb26w8rx2ld.cloudfront.net/000_clients/3033794/page/w400-k21292BnmNCaF2iS.jpg"
+              src={require(`../SingleModa/media/images/${path}/1.jpg`)}
               alt="Moda Category"
             />
             <h3 className="moda-title">{title}</h3>
