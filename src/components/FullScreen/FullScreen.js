@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import './FullScreen.css';
 
-export default function FullScreen({ hide, src }) {
+export default function FullScreen({ hide, src, path }) {
   const [source, setSource] = useState(src);
   const [delay, setDelay] = useState(false);
 
@@ -56,7 +56,7 @@ export default function FullScreen({ hide, src }) {
       </button>
       <img
         className="full-screen-img"
-        src={require(`../SingleProd/media/images/${source}`)}
+        src={require(`../${path}/media/images/${source}`)}
         alt="Full Screen"
       />
       <button className="right-btn" onClick={handleGoRight}>

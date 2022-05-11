@@ -27,6 +27,7 @@ nav h2 {
   justify-content: center;
   align-items: center;
   margin-top: 2rem;
+  flex-wrap: wrap;
 }
 
 .header-menu li {
@@ -64,4 +65,16 @@ nav h2::before {
   bottom: -60%;
   left: 0;
   z-index: -1;
+}
+
+@media screen and (max-width: 700px) {
+  .header-menu {
+    padding: 0 0.75rem;
+  }
+
+  nav h2::before {
+    width: 95%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }

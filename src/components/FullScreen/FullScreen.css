@@ -21,7 +21,7 @@
 }
 
 .full-screen button {
-  background-color: none;
+  background-color: transparent;
   border: none;
   outline: none;
   height: min-content;
@@ -40,4 +40,10 @@
   top: 50%;
   right: 2rem;
   transform: translateY(-50%);
+}
+
+@media screen and (max-width: 700px) {
+  .full-screen {
+    margin-top: -78%;
+  }
 }
