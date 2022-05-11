@@ -20,6 +20,10 @@ export default function FullScreen({ hide, src }) {
       setDelay(true);
       setTimeout(() => setDelay(false), 200);
     }
+    if (e.key === 'Escape') {
+      hide(false);
+      document.body.classList.remove('stop-scroll');
+    }
   });
 
   const handleGoLeft = () => {
