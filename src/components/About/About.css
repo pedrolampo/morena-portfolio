@@ -25,3 +25,24 @@
   padding: 0.5rem;
   line-height: 30px;
 }
+
+@media screen and (max-width: 1200px) {
+  .about {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .about img {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about {
+    flex-direction: column-reverse;
+  }
+
+  .about .text {
+    padding-top: 0;
+  }
+}
