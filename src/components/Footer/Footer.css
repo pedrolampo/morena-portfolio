@@ -1,0 +1,9 @@
+.footer {
+  width: 100%;
+}
+
+.footer .img-link svg {
+  width: 32px;
+  height: 32px;
+  padding: 1rem;
+}

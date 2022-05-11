@@ -1,6 +1,7 @@
-import Header from './components/Header/Header';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 import Main from './components/Main/Main';
 import Productos from './components/Productos/Productos';
 import Moda from './components/Moda/Moda';
@@ -24,6 +25,7 @@ function App() {
           <Route exact path="/about" element={<About />} />
           <Route exact path="/contacto" element={<Contact />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );

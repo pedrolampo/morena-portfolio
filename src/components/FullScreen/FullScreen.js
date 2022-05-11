@@ -3,9 +3,24 @@ import React, { useState } from 'react';
 import './FullScreen.css';
 
 export default function FullScreen({ hide, src }) {
+  const [source, setSource] = useState(src);
+  const [delay, setDelay] = useState(false);
+
   document.body.classList.add('stop-scroll');
 
-  const [source, setSource] = useState(src);
+  document.addEventListener('keydown', (e) => {
+    if (delay) return;
+    if (e.key === 'ArrowLeft') {
+      handleGoLeft();
+      setDelay(true);
+      setTimeout(() => setDelay(false), 200);
+    }
+    if (e.key === 'ArrowRight') {
+      handleGoRight();
+      setDelay(true);
+      setTimeout(() => setDelay(false), 200);
+    }
+  });
 
   const handleGoLeft = () => {
     if (source.includes('1')) setSource(source.replace('1', '4'));
