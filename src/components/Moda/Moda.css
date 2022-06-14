@@ -78,6 +78,7 @@
   transform: translate(-50%, 800%);
   color: rgba(0, 0, 0, 1);
   font-size: 1.1rem;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 @media screen and (max-width: 1200px) {
