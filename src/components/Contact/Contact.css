@@ -1,5 +1,6 @@
 @media screen and (max-width: 800px) {
   .contact-form {
     max-width: 90vw;
+    height: 880px;
   }
 }
