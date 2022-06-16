@@ -19,17 +19,20 @@
   justify-content: center;
   gap: 3rem;
   margin-top: 2rem;
-  width: 70%;
+  width: 80%;
 }
 
 .single-product .photos img {
-  width: 25rem;
+  width: 20rem;
   cursor: pointer;
 }
 
 @media screen and (max-width: 1400px) {
   .single-product {
     width: 95%;
+  }
+  .single-product .photos {
+    width: 100%;
   }
 }
 

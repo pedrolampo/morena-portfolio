@@ -16,9 +16,6 @@ const SingleProd = () => {
       case 'vicenta':
         setProduct('VICENTA AROMAS');
         break;
-      case 'palotes':
-        setProduct('PALOTES SIERRAS APART');
-        break;
       case 'textura':
         setProduct('TEXTURA: DISEÑO EN TELAR');
         break;
@@ -28,14 +25,14 @@ const SingleProd = () => {
       case 'iracy':
         setProduct('IRACY ALMACÉN NATURAL');
         break;
-      case 'concepto':
-        setProduct('CONCEPTO SHOWROOM');
-        break;
       case 'milisant':
         setProduct('MILISANT CHOCOLATES');
         break;
       case 'deco':
         setProduct('DECO & ART');
+        break;
+      case 'famangio':
+        setProduct('FAMANGIO');
         break;
 
       default:
@@ -78,6 +75,46 @@ const SingleProd = () => {
           src={require(`./media/images/${prodId}/4.jpg`)}
           alt={product}
           onClick={() => handleFullScreen(`${prodId}/4.jpg`)}
+        />
+        <img
+          src={require(`./media/images/${prodId}/5.jpg`)}
+          alt={product}
+          onClick={() => handleFullScreen(`${prodId}/5.jpg`)}
+        />
+        <img
+          src={require(`./media/images/${prodId}/6.jpg`)}
+          alt={product}
+          onClick={() => handleFullScreen(`${prodId}/6.jpg`)}
+        />
+        <img
+          src={require(`./media/images/${prodId}/7.jpg`)}
+          alt={product}
+          onClick={() => handleFullScreen(`${prodId}/7.jpg`)}
+        />
+        <img
+          src={require(`./media/images/${prodId}/8.jpg`)}
+          alt={product}
+          onClick={() => handleFullScreen(`${prodId}/8.jpg`)}
+        />
+        <img
+          src={require(`./media/images/${prodId}/9.jpg`)}
+          alt={product}
+          onClick={() => handleFullScreen(`${prodId}/9.jpg`)}
+        />
+        <img
+          src={require(`./media/images/${prodId}/10.jpg`)}
+          alt={product}
+          onClick={() => handleFullScreen(`${prodId}/10.jpg`)}
+        />
+        <img
+          src={require(`./media/images/${prodId}/11.jpg`)}
+          alt={product}
+          onClick={() => handleFullScreen(`${prodId}/11.jpg`)}
+        />
+        <img
+          src={require(`./media/images/${prodId}/12.jpg`)}
+          alt={product}
+          onClick={() => handleFullScreen(`${prodId}/12.jpg`)}
         />
       </div>
     </div>

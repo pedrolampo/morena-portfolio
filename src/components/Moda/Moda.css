@@ -9,9 +9,9 @@
 .moda-list {
   display: flex;
   flex-wrap: wrap;
-  width: 80%;
+  width: 70%;
   justify-content: center;
-  gap: 2rem;
+  gap: 3rem 10rem;
 }
 
 .moda h2 {
@@ -78,6 +78,12 @@
   transform: translate(-50%, 800%);
   color: rgba(0, 0, 0, 1);
   font-size: 1.1rem;
+}
+
+@media screen and (max-width: 1400px) {
+  .moda-list {
+    gap: 3rem;
+  }
 }
 
 @media screen and (max-width: 1200px) {

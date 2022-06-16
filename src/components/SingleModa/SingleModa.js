@@ -13,23 +13,17 @@ export default function SingleModa() {
 
   useEffect(() => {
     switch (modaId) {
-      case 'texturafem':
-        setModa('TEXTURA FEMENINO');
-        break;
-      case 'texturamasc':
-        setModa('TEXTURA MASCULINO');
+      case 'textura':
+        setModa('TEXTURA');
         break;
       case 'beone':
         setModa('BE ONE');
         break;
-      case 'sportwear':
-        setModa('SPORTWEAR');
+      case 'kuba':
+        setModa('KUBA STORE');
         break;
-      case 'valkhu':
-        setModa('VALKHÚ');
-        break;
-      case 'conceptomoda':
-        setModa('CONCEPTO SHOWROOM');
+      case 'famangio':
+        setModa('FAMANGIO');
         break;
 
       default:
@@ -72,6 +66,46 @@ export default function SingleModa() {
           src={require(`./media/images/${modaId}/4.jpg`)}
           alt={moda}
           onClick={() => handleFullScreen(`${modaId}/4.jpg`)}
+        />
+        <img
+          src={require(`./media/images/${modaId}/5.jpg`)}
+          alt={moda}
+          onClick={() => handleFullScreen(`${modaId}/5.jpg`)}
+        />
+        <img
+          src={require(`./media/images/${modaId}/6.jpg`)}
+          alt={moda}
+          onClick={() => handleFullScreen(`${modaId}/6.jpg`)}
+        />
+        <img
+          src={require(`./media/images/${modaId}/7.jpg`)}
+          alt={moda}
+          onClick={() => handleFullScreen(`${modaId}/7.jpg`)}
+        />
+        <img
+          src={require(`./media/images/${modaId}/8.jpg`)}
+          alt={moda}
+          onClick={() => handleFullScreen(`${modaId}/8.jpg`)}
+        />
+        <img
+          src={require(`./media/images/${modaId}/9.jpg`)}
+          alt={moda}
+          onClick={() => handleFullScreen(`${modaId}/9.jpg`)}
+        />
+        <img
+          src={require(`./media/images/${modaId}/10.jpg`)}
+          alt={moda}
+          onClick={() => handleFullScreen(`${modaId}/10.jpg`)}
+        />
+        <img
+          src={require(`./media/images/${modaId}/11.jpg`)}
+          alt={moda}
+          onClick={() => handleFullScreen(`${modaId}/11.jpg`)}
+        />
+        <img
+          src={require(`./media/images/${modaId}/12.jpg`)}
+          alt={moda}
+          onClick={() => handleFullScreen(`${modaId}/12.jpg`)}
         />
       </div>
     </div>

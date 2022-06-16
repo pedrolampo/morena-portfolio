@@ -9,12 +9,10 @@ export default function Moda() {
       <h2>MODA</h2>
 
       <div className="moda-list">
-        <ModaRow title="TEXTURA FEMENINO" path="texturafem" />
-        <ModaRow title="TEXTURA MASCULINO" path="texturamasc" />
+        <ModaRow title="KUBA STORE" path="kuba" />
+        <ModaRow title="TEXTURA" path="textura" />
         <ModaRow title="BE ONE" path="beone" />
-        <ModaRow title="SPORTWEAR" path="sportwear" />
-        <ModaRow title="VALKHÚ" path="valkhu" />
-        <ModaRow title="CONCEPTO SHOWROOM" path="conceptomoda" />
+        <ModaRow title="FAMANGIO" path="famangio" />
       </div>
     </div>
   );

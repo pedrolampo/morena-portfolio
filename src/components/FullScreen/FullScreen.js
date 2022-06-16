@@ -27,17 +27,33 @@ export default function FullScreen({ hide, src, path }) {
   });
 
   const handleGoLeft = () => {
-    if (source.includes('1')) setSource(source.replace('1', '4'));
+    if (source.includes('1')) setSource(source.replace('1', '12'));
     if (source.includes('2')) setSource(source.replace('2', '1'));
     if (source.includes('3')) setSource(source.replace('3', '2'));
     if (source.includes('4')) setSource(source.replace('4', '3'));
+    if (source.includes('5')) setSource(source.replace('5', '4'));
+    if (source.includes('6')) setSource(source.replace('6', '5'));
+    if (source.includes('7')) setSource(source.replace('7', '6'));
+    if (source.includes('8')) setSource(source.replace('8', '7'));
+    if (source.includes('9')) setSource(source.replace('9', '8'));
+    if (source.includes('10')) setSource(source.replace('10', '9'));
+    if (source.includes('11')) setSource(source.replace('11', '10'));
+    if (source.includes('12')) setSource(source.replace('12', '1'));
   };
 
   const handleGoRight = () => {
     if (source.includes('1')) setSource(source.replace('1', '2'));
     if (source.includes('2')) setSource(source.replace('2', '3'));
     if (source.includes('3')) setSource(source.replace('3', '4'));
-    if (source.includes('4')) setSource(source.replace('4', '1'));
+    if (source.includes('4')) setSource(source.replace('4', '5'));
+    if (source.includes('5')) setSource(source.replace('5', '6'));
+    if (source.includes('6')) setSource(source.replace('6', '7'));
+    if (source.includes('7')) setSource(source.replace('7', '8'));
+    if (source.includes('8')) setSource(source.replace('8', '9'));
+    if (source.includes('9')) setSource(source.replace('9', '10'));
+    if (source.includes('10')) setSource(source.replace('10', '11'));
+    if (source.includes('11')) setSource(source.replace('11', '12'));
+    if (source.includes('12')) setSource(source.replace('12', '1'));
   };
 
   return (
