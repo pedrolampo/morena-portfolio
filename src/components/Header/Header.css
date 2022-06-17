@@ -78,3 +78,24 @@ nav h2::before {
     transform: translateX(-50%);
   }
 }
+
+@media screen and (max-width: 550px) {
+  nav h1::before {
+    width: 70%;
+    left: 15%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  nav h1::before {
+    width: 80%;
+    left: 10%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  nav h1::before {
+    width: 90%;
+    left: 5%;
+  }
+}
