@@ -1,0 +1,59 @@
+.cm-main {
+  width: 80%;
+  margin-bottom: 4em;
+}
+
+.cm-main h2 {
+  font-size: 1.25rem;
+  letter-spacing: 2px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cm-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2em 6em;
+  justify-content: center;
+  width: 100%;
+}
+
+.cm-brand {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.cm-images {
+  width: 100%;
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+}
+
+.cm-images a {
+  width: 100%;
+}
+
+.cm-images img {
+  width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .cm-brand {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .cm-brand {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .cm-images {
+    flex-direction: column;
+  }
+}

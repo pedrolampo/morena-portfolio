@@ -4,11 +4,19 @@ import { Link } from 'react-router-dom';
 import './Header.css';
 
 const Header = ({ title, subtitle }) => {
-  const menus = ['inicio', 'foto producto', 'moda', 'sobre mí', 'contacto'];
+  const menus = [
+    'inicio',
+    'foto producto',
+    'moda',
+    'CM',
+    'sobre mí',
+    'contacto',
+  ];
 
   const returnUrl = (e) => {
     if (e === 'foto producto') return 'productos';
     if (e === 'sobre mí') return 'about';
+    if (e === 'CM') return 'community';
     else return e;
   };
 

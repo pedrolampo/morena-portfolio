@@ -5,6 +5,7 @@ import Footer from './components/Footer/Footer';
 import Main from './components/Main/Main';
 import Productos from './components/Productos/Productos';
 import Moda from './components/Moda/Moda';
+import Community from './components/Community/Community';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import SingleProd from './components/SingleProd/SingleProd';
@@ -24,6 +25,7 @@ function App() {
           <Route path="/productos/:prodId" element={<SingleProd />} />
           <Route path="/moda/:modaId" element={<SingleModa />} />
           <Route exact path="/moda" element={<Moda />} />
+          <Route exact path="/community" element={<Community />} />
           <Route exact path="/about" element={<About />} />
           <Route exact path="/contacto" element={<Contact />} />
         </Routes>

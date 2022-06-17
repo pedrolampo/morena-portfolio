@@ -9,9 +9,9 @@
 .products-list {
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
+  width: 90%;
   justify-content: center;
-  gap: 2rem;
+  gap: 3rem;
 }
 
 .products h2 {
@@ -28,10 +28,10 @@
   cursor: pointer;
 }
 
-.product-category:nth-child(2) img {
+/* .product-category:nth-child(2) img {
   height: 100%;
   width: auto;
-}
+} */
 
 .product-item img {
   width: 100%;
@@ -78,8 +78,14 @@
   font-size: 1.1rem;
 }
 
+@media screen and (max-width: 1500px) {
+  .products-list {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .products {
-    width: 90%;
+    width: 85%;
   }
 }
