@@ -32,7 +32,10 @@
   justify-content: center;
 }
 
-.cm-images a {
+.cm-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
 }
 

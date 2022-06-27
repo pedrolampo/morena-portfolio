@@ -8,7 +8,7 @@ const Header = ({ title, subtitle }) => {
     'inicio',
     'foto producto',
     'moda',
-    'CM',
+    'community',
     'sobre mí',
     'contacto',
   ];
@@ -16,7 +16,6 @@ const Header = ({ title, subtitle }) => {
   const returnUrl = (e) => {
     if (e === 'foto producto') return 'productos';
     if (e === 'sobre mí') return 'about';
-    if (e === 'CM') return 'community';
     else return e;
   };
 

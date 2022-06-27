@@ -14,21 +14,13 @@ export default function Community() {
             <div key={e} className="cm-brand">
               <h3>{e.toUpperCase()}</h3>
               <div className="cm-images">
-                <a
-                  href="https://www.instagram.com/morenasanchezfoto/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <div className="cm-img-container">
                   <img alt={e} src={require(`./media/images/${e}1.jpg`)} />
-                </a>
+                </div>
 
-                <a
-                  href="https://www.instagram.com/morenasanchezfoto/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <div className="cm-img-container">
                   <img alt={e} src={require(`./media/images/${e}2.jpg`)} />
-                </a>
+                </div>
               </div>
             </div>
           );

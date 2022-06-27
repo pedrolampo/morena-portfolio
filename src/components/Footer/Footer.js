@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <div className="footer">
       <a
-        href="https://www.instagram.com/morenasanchezfoto/"
+        href="https://www.instagram.com/moresanchez_/"
         target="_blank"
         rel="noreferrer"
         className="img-link"
