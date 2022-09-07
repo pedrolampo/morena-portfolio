@@ -79,6 +79,9 @@
 }
 
 @media screen and (max-width: 1500px) {
+  .products {
+    width: 95%;
+  }
   .products-list {
     width: 100%;
   }
@@ -86,6 +89,6 @@
 
 @media screen and (max-width: 1200px) {
   .products {
-    width: 85%;
+    width: 95%;
   }
 }

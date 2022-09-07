@@ -10,8 +10,9 @@ export default function Productos() {
 
       <div className="products-list">
         <ProductRow title="VICENTA AROMAS" path="vicenta" />
-        <ProductRow title="TEXTURA: DISEÑO EN TELAR" path="textura" />
+        <ProductRow title="KUBA STORE" path="kuba" />
         <ProductRow title="MS PRINT" path="msprint" />
+        <ProductRow title="TEXTURA: DISEÑO EN TELAR" path="textura" />
         <ProductRow title="IRACY ALMACÉN NATURAL" path="iracy" />
         <ProductRow title="MILISANT CHOCOLATES" path="milisant" />
         <ProductRow title="DECO & ART" path="deco" />

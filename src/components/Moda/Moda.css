@@ -80,7 +80,19 @@
   font-size: 1.1rem;
 }
 
+@media screen and (max-width: 1500px) {
+  .moda {
+    width: 95%;
+  }
+  .moda-list {
+    gap: 3rem;
+  }
+}
+
 @media screen and (max-width: 1400px) {
+  .moda {
+    width: 95%;
+  }
   .moda-list {
     gap: 3rem;
   }
@@ -89,5 +101,8 @@
 @media screen and (max-width: 1200px) {
   .moda {
     width: 100%;
+  }
+  .moda-list {
+    gap: 1.5rem;
   }
 }

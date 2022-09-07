@@ -34,6 +34,9 @@ const SingleProd = () => {
       case 'famangio':
         setProduct('FAMANGIO');
         break;
+      case 'kuba':
+        setProduct('KUBA STORE');
+        break;
 
       default:
         break;
