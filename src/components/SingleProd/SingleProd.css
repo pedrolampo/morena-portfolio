@@ -27,7 +27,7 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1600px) {
   .single-product {
     width: 95%;
   }
