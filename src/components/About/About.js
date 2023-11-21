@@ -14,31 +14,19 @@ export default function About() {
         <h3>SOBRE MÍ</h3>
 
         <p>
-          Morena Sanchez es una fotógrafa nacida en Buenos Aires, Argentina que
-          se dedica a la fotografía de producto y moda establecida en la ciudad
-          de La Falda, Córdoba, Argentina.
+          Soy Morena Sanchez, nacida en Buenos Aires, Argentina fotógrafa y
+          filmmaker establecida en la ciudad de La Falda, Córdoba, Argentina.
         </p>
 
         <p>
-          Inicia su trayectoria fotográfica a mediados de 2016 cuando le regalan
-          su primera cámara Nikon D5200, con la cual realiza el Curso Intensivo
-          de Fotografía en Jammer’s School. Allí comienza a realizar sesiones de
-          retratos y cobertura de eventos, como también paisajes y fotografías
-          de naturaleza.
+          Inicié mi trayectoria fotográfica a mediados de 2016 cuando me regalan
+          mi primera cámara, Nikon D5200.
         </p>
 
         <p>
-          Estudia la Tecnicatura Superior en Fotografía en la Universidad
-          Provincial de Córdoba y además realizó el Curso de Marketing:
-          Publicidad y Community Manager y también el de Photoshop e Illustrator
-          en Coderhouse.
-        </p>
-
-        <p>
-          Morena pretende transmitir armonía y a la vez crear identidades
-          visuales definidas y memorables, ya sean productos, paisajes o
-          retratos, ella es apasionada por lo audiovisual y desea representarlo
-          a través de sus fotografías y videos.
+          Actualmente soy recibida de la Tecnicatura Superior en Fotografía de
+          la Universidad Provincial de Córdoba y realizo trabajos tanto en el
+          área de la fotografía como en video.
         </p>
       </div>
     </div>

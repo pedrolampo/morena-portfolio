@@ -13,17 +13,20 @@ export default function SingleModa() {
 
   useEffect(() => {
     switch (modaId) {
-      case 'textura':
-        setModa('TEXTURA');
-        break;
-      case 'beone':
-        setModa('BE ONE');
+      case 'coco':
+        setModa('COCO MUII');
         break;
       case 'kuba':
         setModa('KUBA STORE');
         break;
+      case 'textura':
+        setModa('TEXTURA');
+        break;
       case 'famangio':
         setModa('FAMANGIO');
+        break;
+      case 'beone':
+        setModa('BE ONE');
         break;
 
       default:

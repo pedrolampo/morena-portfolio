@@ -16,8 +16,11 @@ const SingleProd = () => {
       case 'vicenta':
         setProduct('VICENTA AROMAS');
         break;
-      case 'textura':
-        setProduct('TEXTURA: DISEÑO EN TELAR');
+      case 'optica':
+        setProduct('OPTICA 20/20');
+        break;
+      case 'kuba':
+        setProduct('KUBA STORE');
         break;
       case 'msprint':
         setProduct('MS PRINT');
@@ -25,17 +28,8 @@ const SingleProd = () => {
       case 'iracy':
         setProduct('IRACY ALMACÉN NATURAL');
         break;
-      case 'milisant':
-        setProduct('MILISANT CHOCOLATES');
-        break;
-      case 'deco':
-        setProduct('DECO & ART');
-        break;
       case 'famangio':
         setProduct('FAMANGIO');
-        break;
-      case 'kuba':
-        setProduct('KUBA STORE');
         break;
 
       default:

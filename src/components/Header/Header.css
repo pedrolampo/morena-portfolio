@@ -47,12 +47,12 @@ nav h2 {
 
 nav h1::before {
   content: '';
-  width: 60%;
+  width: 55%;
   height: 50%;
   background-color: rgb(255, 176, 162);
   position: absolute;
   top: 0;
-  left: 20%;
+  left: 22.5%;
   z-index: -1;
 }
 

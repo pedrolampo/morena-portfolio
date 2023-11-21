@@ -1,0 +1,43 @@
+.single-gastronomia {
+  margin: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  align-items: center;
+}
+
+.single-gastronomia h2 {
+  font-size: 1.25rem;
+  letter-spacing: 3px;
+  display: flex;
+  flex-direction: column;
+}
+
+.single-gastronomia .photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 2rem;
+  width: 80%;
+}
+
+.single-gastronomia .photos img {
+  width: 20rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1600px) {
+  .single-gastronomia {
+    width: 90%;
+  }
+  .single-gastronomia .photos {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .single-gastronomia .photos img {
+    width: 100%;
+  }
+}

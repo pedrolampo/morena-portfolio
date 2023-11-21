@@ -6,15 +6,18 @@ import './Header.css';
 const Header = ({ title, subtitle }) => {
   const menus = [
     'inicio',
-    'foto producto',
+    'producto',
+    'gastronomía',
     'moda',
-    'community',
+    'sociales',
+    // 'community',
     'sobre mí',
     'contacto',
   ];
 
   const returnUrl = (e) => {
-    if (e === 'foto producto') return 'productos';
+    if (e === 'producto') return 'productos';
+    if (e === 'gastronomía') return 'gastronomia';
     if (e === 'sobre mí') return 'about';
     else return e;
   };

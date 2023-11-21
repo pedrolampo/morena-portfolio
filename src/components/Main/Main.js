@@ -6,76 +6,52 @@ import './Main.css';
 export default function Main() {
   return (
     <div className="main-screen">
-      <h2>FOTO PRODUCTO</h2>
       <div className="main-content">
         <div className="main-content-image">
           <Link to={'/productos'}>
             <img
-              src={require('../../common/media/images/iracy.jpg')}
+              src={require('../../common/media/images/PRODUCTO.jpg')}
               alt="Imágenes Foto Producto"
             />
           </Link>
         </div>
-        <div className="main-content-image">
-          <Link to={'/productos'}>
-            <img
-              src={require('../../common/media/images/vicenta.jpg')}
-              alt="Imágenes Foto Producto"
-            />
-          </Link>
-        </div>
-        <div className="main-content-image">
-          <Link to={'/productos'}>
-            <img
-              src={require('../../common/media/images/concepto.jpg')}
-              alt="Imágenes Foto Producto"
-            />
-          </Link>
-        </div>
-        <div className="main-content-image">
-          <Link to={'/productos'}>
-            <img
-              src={require('../../common/media/images/milisant.jpg')}
-              alt="Imágenes Foto Producto"
-            />
-          </Link>
-        </div>
+        <h2>FOTO PRODUCTO</h2>
       </div>
 
-      <h2>MODA</h2>
       <div className="main-content">
         <div className="main-content-image">
           <Link to={'/moda'}>
             <img
-              src={require('../../common/media/images/texturafem.jpg')}
+              src={require('../../common/media/images/GASTRONOMIA.jpg')}
               alt="Imágenes Foto Producto"
             />
           </Link>
         </div>
+        <h2>GASTRONOMÍA</h2>
+      </div>
+
+      <div className="main-content">
         <div className="main-content-image">
           <Link to={'/moda'}>
             <img
-              src={require('../../common/media/images/valkhu.jpg')}
+              src={require('../../common/media/images/MODA.jpg')}
               alt="Imágenes Foto Producto"
             />
           </Link>
         </div>
+        <h2>MODA</h2>
+      </div>
+
+      <div className="main-content">
         <div className="main-content-image">
           <Link to={'/moda'}>
             <img
-              src={require('../../common/media/images/beone.jpg')}
+              src={require('../../common/media/images/SOCIAL.jpg')}
               alt="Imágenes Foto Producto"
             />
           </Link>
         </div>
-        <div className="main-content-image">
-          <Link to={'/moda'}>
-            <img
-              src={require('../../common/media/images/concepto2.jpg')}
-              alt="Imágenes Foto Producto"
-            />
-          </Link>
-        </div>
+        <h2>SOCIALES</h2>
       </div>
     </div>
   );
