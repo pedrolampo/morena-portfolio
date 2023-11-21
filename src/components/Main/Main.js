@@ -46,7 +46,7 @@ export default function Main() {
         <div className="main-content-image">
           <Link to={'/moda'}>
             <img
-              src={require('../../common/media/images/social.jpg')}
+              src={require('../../common/media/images/sociales.jpg')}
               alt="Imágenes Foto Producto"
             />
           </Link>
