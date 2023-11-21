@@ -9,13 +9,16 @@ export default function Sociales() {
       <h2>SOCIALES</h2>
 
       <div className="sociales-list">
-        <SocialesRow title="COCO MUII" path="cerca" />
+        <SocialesRow title="CERCA DE VOS" path="cerca" />
         <SocialesRow title="PARAWAY" path="paraway" />
-        <SocialesRow title="JULO _ BANDA" path="julo" />
-        <SocialesRow title="BODA JUANA_FRANCO" path="bodajuana" />
+        <SocialesRow title="JULO & BANDA" path="julo" />
+        <SocialesRow title="BODA JUANA & FRANCO" path="bodajuana" />
         <SocialesRow title="IGNACIO ROURKE" path="rourke" />
-        <SocialesRow title="PRE BODA SERE_RAMI" path="prebodasere" />
-        <SocialesRow title="MATERNIDAD GIULI_MARCOS" path="maternidadmarcos" />
+        <SocialesRow title="PRE BODA SERE & RAMI" path="prebodasere" />
+        <SocialesRow
+          title="MATERNIDAD GIULI & MARCOS"
+          path="maternidadmarcos"
+        />
       </div>
     </div>
   );

@@ -5,10 +5,7 @@ import './About.css';
 export default function About() {
   return (
     <div className="about">
-      <img
-        src="https://dglb26w8rx2ld.cloudfront.net/000_clients/3033794/page/w1000-v212924Sbin752xG.jpg"
-        alt="Morena"
-      />
+      <img src={require('./media/images/aboutme.jpg')} alt="Morena" />
 
       <div className="text">
         <h3>SOBRE MÍ</h3>

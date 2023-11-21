@@ -6,6 +6,7 @@ import './SingleSociales.css';
 
 const SingleSociales = () => {
   const [sociales, setSociales] = useState();
+  const [hasTwelve, setHasTwelve] = useState();
   const [fullScreen, setFullScreen] = useState(false);
   const [fullScreenImg, setFullScreenImg] = useState('');
 
@@ -13,26 +14,33 @@ const SingleSociales = () => {
 
   useEffect(() => {
     switch (socialesId) {
-      case 'coco':
-        setSociales('COCO MUII');
+      case 'cerca':
+        setSociales('CERCA DE VOS');
+        setHasTwelve(true);
         break;
       case 'paraway':
         setSociales('PARAWAY');
+        setHasTwelve(true);
         break;
       case 'julo':
-        setSociales('JULO _ BANDA');
+        setSociales('JULO & BANDA');
+        setHasTwelve(false);
         break;
       case 'bodajuana':
-        setSociales('BODA JUANA_FRANCO');
+        setSociales('BODA JUANA & FRANCO');
+        setHasTwelve(false);
         break;
       case 'rourke':
         setSociales('IGNACIO ROURKE');
+        setHasTwelve(false);
         break;
       case 'prebodasere':
-        setSociales('PRE BODA SERE_RAMI');
+        setSociales('PRE BODA SERE & RAMI');
+        setHasTwelve(true);
         break;
       case 'maternidadmarcos':
-        setSociales('MATERNIDAD GIULI_MARCOS');
+        setSociales('MATERNIDAD GIULI & MARCOS');
+        setHasTwelve(true);
         break;
 
       default:
@@ -111,11 +119,13 @@ const SingleSociales = () => {
           alt={sociales}
           onClick={() => handleFullScreen(`${socialesId}/11.jpg`)}
         />
-        <img
-          src={require(`./media/images/${socialesId}/12.jpg`)}
-          alt={sociales}
-          onClick={() => handleFullScreen(`${socialesId}/12.jpg`)}
-        />
+        {hasTwelve === true && (
+          <img
+            src={require(`./media/images/${socialesId}/12.jpg`)}
+            alt={sociales}
+            onClick={() => handleFullScreen(`${socialesId}/12.jpg`)}
+          />
+        )}
       </div>
     </div>
   );

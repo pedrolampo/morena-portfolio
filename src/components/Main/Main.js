@@ -10,7 +10,7 @@ export default function Main() {
         <div className="main-content-image">
           <Link to={'/productos'}>
             <img
-              src={require('../../common/media/images/PRODUCTO.jpg')}
+              src={require('../../common/media/images/producto.jpg')}
               alt="Imágenes Foto Producto"
             />
           </Link>
@@ -22,7 +22,7 @@ export default function Main() {
         <div className="main-content-image">
           <Link to={'/moda'}>
             <img
-              src={require('../../common/media/images/GASTRONOMIA.jpg')}
+              src={require('../../common/media/images/gastronomia.jpg')}
               alt="Imágenes Foto Producto"
             />
           </Link>
@@ -34,7 +34,7 @@ export default function Main() {
         <div className="main-content-image">
           <Link to={'/moda'}>
             <img
-              src={require('../../common/media/images/MODA.jpg')}
+              src={require('../../common/media/images/moda.jpg')}
               alt="Imágenes Foto Producto"
             />
           </Link>
@@ -46,7 +46,7 @@ export default function Main() {
         <div className="main-content-image">
           <Link to={'/moda'}>
             <img
-              src={require('../../common/media/images/SOCIAL.jpg')}
+              src={require('../../common/media/images/social.jpg')}
               alt="Imágenes Foto Producto"
             />
           </Link>
