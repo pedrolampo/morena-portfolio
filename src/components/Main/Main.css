@@ -49,10 +49,16 @@
   .main-content {
     width: 70%;
   }
+  .main-content h2 {
+    font-size: 1.5rem;
+  }
 }
 
 @media screen and (max-width: 800px) {
   .main-content {
     width: 90%;
+  }
+  .main-content h2 {
+    font-size: 1.25rem;
   }
 }
