@@ -20,7 +20,7 @@ export default function Main() {
 
       <div className="main-content">
         <div className="main-content-image">
-          <Link to={'/moda'}>
+          <Link to={'/gastronomia'}>
             <img
               src={require('../../common/media/images/gastronomia.jpg')}
               alt="Imágenes Foto Producto"
@@ -44,7 +44,7 @@ export default function Main() {
 
       <div className="main-content">
         <div className="main-content-image">
-          <Link to={'/moda'}>
+          <Link to={'/sociales'}>
             <img
               src={require('../../common/media/images/sociales.jpg')}
               alt="Imágenes Foto Producto"

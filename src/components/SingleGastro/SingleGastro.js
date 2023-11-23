@@ -39,7 +39,7 @@ const SingleGastro = () => {
         <FullScreen
           hide={setFullScreen}
           src={fullScreenImg}
-          path="SingleProd"
+          path="SingleGastro"
         />
       )}
       <h2>{gastronomia}</h2>

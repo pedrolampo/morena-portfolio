@@ -59,7 +59,7 @@ const SingleSociales = () => {
         <FullScreen
           hide={setFullScreen}
           src={fullScreenImg}
-          path="SingleProd"
+          path="SingleSociales"
         />
       )}
       <h2>{sociales}</h2>
